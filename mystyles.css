@@ -1,0 +1,40 @@
+/** CSS Styling for J. Houppermans's portfolio website 
+ *
+ * By: J. Houppermans
+ *
+ * Completion Status: Skeleton
+ *
+ **/
+
+
+/* Styles for the navigation bar */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #dddddd;
+	overflow: hidden;
+
+	position: sticky; /*not functional in IE and may not work in mobile*/
+	position: -webkit-sticky; /*to function in Safari*/
+	top: 0;
+}
+
+li {
+	float: left;
+}
+
+li a { 
+	display: block;
+	padding: 16px;
+	text-align: center;
+}
+
+li:hover {
+	background-color: #B695C0;
+}
+
+
+p {
+	clear: left;
+}
