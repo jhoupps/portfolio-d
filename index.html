@@ -12,42 +12,52 @@
 	<head>
 		<title> J. Houppermans </title>
 		<link rel="stylesheet" type="text/css" href="mystyles.css">
-		<script src="pokedex.js"></script>
+		<script src="scripts.js"></script>
 
 	</head>
 	<body>
 		<header>
-			<h1>Content will go here </h1>
+			<h1> <pre>  </pre></h1>
 		</header>
 		<main>
 			<!--Currently, nav bar is in the main area. Moving it to header removes the sticky property. In tweaking phase, experiement with this -->
-			<ul id="links">
+			<ul id="header_nav" class="nav_bar">
 				<li><a href="index.html">Home</a></li>
-				<li><a href="about_me.html">About Me</a></li>
-				<li><a href="education.html">Education</a></li>
-				<li><a href="security.html">Security Focus</a></li>
-				<li><a href="development.html">Development Focus</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="resume.html">Resume</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="pages/about_me.html">About Me</a></li>
+				<li><a href="pages/education.html">Education</a></li>
+				<li><a href="pages/security.html">Security Focus</a></li>
+				<li><a href="pages/development.html">Development Focus</a></li>
+				<li><a href="pages/projects.html">Projects</a></li>
+				<li><a href="pages/resume.html">Resume</a></li>
+				<li><a href="pages/contact.html">Contact</a></li>
 			</ul>
-			<p> Content!!!! wooooo </p>
-			<p> Content!!!! wooooo </p>
-			<p> Content!!!! wooooo </p>
-			<p> Content!!!! wooooo </p>
-			<p> Content!!!! wooooo </p>
-			<p> Content!!!! wooooo </p>
-			<p> Content!!!! wooooo </p>
-			<p> Content!!!! wooooo </p>
-			<p> Content!!!! wooooo </p>
-			<p> Content!!!! wooooo </p>
+
+			<div id=cover_img>
+				<h2> J. Houppermans </h2>
+				<h4> Developer, Designer, Engineer, Administrator </h4>
+			</div>
+
 			<p> Content!!!! wooooo </p>
 			<p> Content!!!! wooooo </p>
 			<p> Content!!!! wooooo </p>
 		</main>
 		<footer>
 			<hr>
-			<p> This is a footer </p>
+			<p> All photos taken and owned by me </p>
+			<p> Found a bug? Got comments? <a href="pages/contact.html">Reach out!</a> </p>
+			<div id="footer_nav_wrapper">
+				<ul id="footer_nav" class="nav_bar"> <!-- flag - possibly restructure later - rather than having ids, do it by css selectors? wait until I can figure out if I can put the other nav bar in the header section-->
+					<li><a href="index.html">Home</a></li>
+                	                <li><a href="pages/about_me.html">About Me</a></li>
+                        	        <li><a href="pages/education.html">Education</a></li>
+                            		<li><a href="pages/security.html">Security Focus</a></li>
+                  		        <li><a href="pages/development.html">Development Focus</a></li>
+                        	        <li><a href="pages/projects.html">Projects</a></li>
+      	        	                <li><a href="pages/resume.html">Resume</a></li>
+        	                        <li><a href="pages/contact.html">Contact</a></li>
+				<ul>
+			</div>
+
 		</footer>
 	</body>
 

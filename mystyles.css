@@ -8,33 +8,63 @@
 
 
 /* Styles for the navigation bar */
-ul {
+.nav_bar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	background-color: #dddddd;
 	overflow: hidden;
+}
 
+#header_nav {
 	position: sticky; /*not functional in IE and may not work in mobile*/
 	position: -webkit-sticky; /*to function in Safari*/
 	top: 0;
 }
 
-li {
+#header_nav li {
 	float: left;
 }
 
-li a { 
+#header_nav li a { 
 	display: block;
 	padding: 16px;
 	text-align: center;
+	text-decoration: none;
 }
 
-li:hover {
+.header_nav li:hover {
 	background-color: #B695C0;
 }
 
+/*CSS for the footer and it's nav bar */
 
-p {
-	clear: left;
+footer {
+	background-color: #dddddd;
+	text-align: center;
 }
+
+footer .nav_bar li {
+	display: inline;
+}
+
+
+/* the CSS for the cool image and title */
+body {
+	background-image: url("imgs/cap_sante.jpg");
+	background-size: 100% 100vh;
+	background-repeat: no-repeat;
+}
+
+
+#cover_img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+}
+
+
+
